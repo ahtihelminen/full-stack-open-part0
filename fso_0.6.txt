@@ -1,0 +1,12 @@
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over selain:
+spa.js tiedoston koodi hoitaa muistiinpanon lähtettämisen
+end note
+
+palvelin-->selain: 201 created
+
+note over palvelin:
+palvelin tallentaa muistiinpanon data.json tiedostoon
+lähettää statuskoodin 201 created -> tallennus onnistunut
